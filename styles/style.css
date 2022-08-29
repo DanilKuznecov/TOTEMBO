@@ -391,7 +391,7 @@ body {
     max-width: 636px;
     width: 100%;
     position: relative;
-
+    border-radius: 10px;
 }
 
 .main__left-title {
@@ -464,7 +464,7 @@ body {
     max-width: 636px;
     width: 100%;
     position: relative;
-
+    border-radius: 10px;
 }
 
 .main__right-title {
@@ -492,3 +492,109 @@ body {
 
 
 /* MAIN END */
+
+
+/* FOOTER START */
+
+.footer {
+    background: var(--wblack);
+    margin-top: 60px;
+    padding-top: 100px;
+    padding-bottom: 87px;
+}
+
+.footer__logo {
+    color: var(--white);
+    font-size: 32px;
+    line-height: 23px;
+    font-family: var(--mb);
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.footer__info-links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.footer__link {
+    color: var(--white);
+    font-size: 18px;
+    line-height: 22px;
+    font-family: var(--mr);
+}
+
+
+.footer__info-title {
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 22px;
+    line-height: 27px;
+    font-family: var(--mr);
+}
+
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__info-contacts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.footer__info-telephones {
+    display: flex;
+    column-gap: 10px;
+}
+
+
+.footer__info-address {
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--white);
+    font-family: var(--mr);
+}
+
+.footer__info-telephone {
+    color: var(--white);
+    font-size: 18px;
+    line-height: 22px;
+    font-family: var(--mr);
+}
+
+.footer__info-mail {
+    color: var(--white);
+    font-size: 18px;
+    line-height: 22px;
+    font-family: var(--mr);
+    text-transform: uppercase;
+}
+
+.footer__info-social {
+    color: var(--white);
+    letter-spacing: 2.5px;
+    font-variant: small-caps;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: var(--mr);
+    margin-top: 60px;
+}
+
+.footer__social-links {
+    display: flex;
+    column-gap: 26px;    
+}
+
+.footer__info:nth-of-type(3) {
+    margin-right: 125px;
+}
+
+/* FOOTER END */
